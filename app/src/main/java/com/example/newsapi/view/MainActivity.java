@@ -13,6 +13,7 @@ import android.view.MenuItem;
 
 import com.example.newsapi.R;
 import com.example.newsapi.databinding.ActivityMainBinding;
+import com.example.newsapi.logic.ArticlesFragmentFactory;
 import com.example.newsapi.logic.CardClickHandler;
 import com.example.newsapi.logic.ArticlesViewModel;
 
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements CardClickHandler 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportFragmentManager().setFragmentFactory(new ArticlesFragmentFactory());
         super.onCreate(savedInstanceState);
         dataBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
@@ -75,26 +77,28 @@ public class MainActivity extends AppCompatActivity implements CardClickHandler 
         getSupportActionBar().hide();
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
 
-        commitFragment(LoaderFragment.newInstance(), false, LoaderFragment.TAG);
+        commitFragment(LoaderFragment.class, false, LoaderFragment.TAG, new Bundle());
     }
 
     private void loadNewsHomeFragment() {
         getSupportActionBar().show();
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
 
-        commitFragment(NewsHomeFragment.newInstance(), false, NewsHomeFragment.TAG);
+        commitFragment(NewsHomeFragment.class, false, NewsHomeFragment.TAG, new Bundle());
     }
 
     private void loadNewsDetailedFragment(String url) {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        commitFragment(WebViewFragment.newInstance(url), true, WebViewFragment.TAG);
+        Bundle bundle = new Bundle();
+        bundle.putString(WebViewFragment.NEWS_CARD_URL, url);
+        commitFragment(WebViewFragment.class, true, WebViewFragment.TAG, bundle);
     }
 
-    private void commitFragment(Fragment fragment, boolean addToBackStack, String tag) {
+    private void commitFragment(@NonNull Class<? extends Fragment> fragmentClass, boolean addToBackStack, String tag, Bundle bundle) {
         FragmentTransaction transaction = getSupportFragmentManager()
                 .beginTransaction()
-                .add(R.id.main_container, fragment);
+                .replace(R.id.main_container, fragmentClass, bundle);
         if (addToBackStack) {
             transaction.addToBackStack(tag);
         }

@@ -17,16 +17,12 @@ import com.example.newsapi.databinding.FragmentWebviewBinding;
 
 public class WebViewFragment extends Fragment {
     public static final String TAG = WebViewFragment.class.getSimpleName();
-    private static final String NEWS_CARD_URL = "com.example.newsapi.view.NEWS_CARD_URL";
+    public static final String NEWS_CARD_URL = "com.example.newsapi.view.NEWS_CARD_URL";
 
     private FragmentWebviewBinding binding;
 
-    public static WebViewFragment newInstance(String url) {
-        WebViewFragment fragment = new WebViewFragment();
-        Bundle args = new Bundle();
-        args.putString(NEWS_CARD_URL, url);
-        fragment.setArguments(args);
-        return fragment;
+    public static WebViewFragment newInstance() {
+        return new WebViewFragment();
     }
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

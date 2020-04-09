@@ -20,8 +20,7 @@ public class LoaderFragment extends Fragment {
     private FragmentLoaderBinding binding;
 
     public static LoaderFragment newInstance() {
-        LoaderFragment fragment = new LoaderFragment();
-        return fragment;
+        return new LoaderFragment();
     }
 
     @Nullable

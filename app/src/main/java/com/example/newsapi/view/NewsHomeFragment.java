@@ -25,10 +25,7 @@ public class NewsHomeFragment extends Fragment {
     private FragmentNewsHomeBinding binding;
 
     public static NewsHomeFragment newInstance() {
-        NewsHomeFragment fragment = new NewsHomeFragment();
-        Bundle args = new Bundle();
-        fragment.setArguments(args);
-        return fragment;
+        return new NewsHomeFragment();
     }
 
     @Override
