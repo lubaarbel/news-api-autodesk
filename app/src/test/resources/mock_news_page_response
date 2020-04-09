@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 70,
+    "articles": [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Lucia Mutikani",
+            "title": "U.S. weekly jobless claims seen hovering near record highs - Reuters",
+            "description": "The number of Americans seeking unemployment benefits in the last three weeks likely totaled a staggering 15 million as tough measures to control the novel coronavirus outbreak abruptly ground the country to halt, which would cement views the economy was in d…",
+            "url": "https://www.reuters.com/article/us-health-coronavirus-usa-unemployment-idUSKCN21R0GT",
+            "urlToImage": "https://s2.reutersmedia.net/resources/r/?m=02&d=20200409&t=2&i=1514306982&w=1200&r=LYNXNPEG380AD",
+            "publishedAt": "2020-04-09T06:43:17Z",
+            "content": "WASHINGTON (Reuters) - The number of Americans seeking unemployment benefits in the last three weeks likely totaled a staggering 15 million as tough measures to control the novel coronavirus outbreak abruptly ground the country to halt, which would cement vie… [+4515 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Mysanantonio.com"
+            },
+            "author": "Mark Dunphy, Lauren Caruba",
+            "title": "Coronavirus updates: COVID-19 cases jump to 554 in Bexar County - mySA",
+            "description": "A roundup of the latest coronavirus news from San Antonio, including COVID-19 case counts and more.",
+            "url": "https://www.mysanantonio.com/coronavirus/article/Coronavirus-updates-3-hospital-workers-in-S-A-15176983.php",
+            "urlToImage": "https://s.hdnux.com/photos/01/11/34/17/19252181/4/rawImage.jpg",
+            "publishedAt": "2020-04-09T05:26:32Z",
+            "content": "Here's a look at what has transpired in the city since the stay-at-home order was handed down.\r\nHere's a look at what has transpired in the city since the stay-at-home order was handed down.\r\n Photo: File Photo\r\nCoronavirus updates: COVID-19 cases jump to 554… [+5530 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Xxlmag.com"
+            },
+            "author": "tylersharp",
+            "title": "6ix9ine Changes Instagram Profile Photo to Cartoon of Him on a Rat Trap Eating Cheese - XXLMAG.COM",
+            "description": "See it here.",
+            "url": "https://www.xxlmag.com/news/2020/04/6ix9ine-instagram-profile-photo-bio/",
+            "urlToImage": "https://townsquare.media/site/812/files/2018/04/6ix9ine2.jpg?w=1200",
+            "publishedAt": "2020-04-09T05:15:00Z",
+            "content": "6ix9ine has changed his profile picture on Instagram to a cartoon depiction of himself sitting on a rat trap, smiling and eating cheese.\r\nOn Wednesday night (April 8), he also updated his bio to read, \"Why everybody callin me a snitch? Im missin something...?… [+1392 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Youtube.com"
+            },
+            "author": null,
+            "title": "Coronavirus crisis takes huge toll on Europe's economy - Al Jazeera English",
+            "description": "The coronavirus is taking its toll on economies in Europe. Talks between EU finance ministers broke down on Wednesday, as they discussed a multibillion-dolla...",
+            "url": "https://www.youtube.com/watch?v=Z9MONQsSfzM",
+            "urlToImage": "https://i.ytimg.com/vi/Z9MONQsSfzM/maxresdefault.jpg",
+            "publishedAt": "2020-04-09T04:20:14Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Barrons.com"
+            },
+            "author": "Al Root",
+            "title": "Trump Blasts Amazon for USPS Losses. Blame Congress Instead. - Barron's",
+            "description": "",
+            "url": "https://www.barrons.com/articles/trump-blasts-amazon-for-uspss-losses-blame-congress-instead-51586387726",
+            "urlToImage": "https://images.barrons.com/im-174393/social",
+            "publishedAt": "2020-04-09T04:09:41Z",
+            "content": "President Donald Trump blamed\r\n Amazon.com\r\n for the U.S. Postal Services losses on Tuesday. He might want to redirect his ire toward Congress. The Postal Service has lost billions of dollars a year for many years, Trump said during Tuesdays coronavirus task … [+3126 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Npr.org"
+            },
+            "author": "Tom Dreisbach",
+            "title": "SEC Suspends Trading Of Company That Sold 'At-Home' COVID-19 Tests - NPR",
+            "description": "Wellness Matrix Group said the test had been approved but the Food and Drug Administration said it has not authorized any such product.",
+            "url": "https://www.npr.org/sections/coronavirus-live-updates/2020/04/08/830312298/sec-suspends-trading-of-company-that-sold-at-home-covid-19-tests",
+            "urlToImage": "https://media.npr.org/assets/img/2020/04/08/gettyimages-98554987_wide-71b773a5bd58bc248d3ed601072db6fe2f376369.jpg?s=1400",
+            "publishedAt": "2020-04-09T03:26:38Z",
+            "content": "The U.S. Securities and Exchange Commission announced this week that it was temporarily suspending the trading of shares of Wellness Matrix Group.\r\nBrendan Hoffman/Bloomberg via Getty Images\r\nThe U.S. Securities and Exchange Commission has temporarily suspend… [+2624 chars]"
+        },
+        {
+            "source": {
+                "id": "bloomberg",
+                "name": "Bloomberg"
+            },
+            "author": null,
+            "title": "Warren Buffett’s Berkshire Hathaway Joins Global Debt Splurge - Bloomberg",
+            "description": null,
+            "url": "https://www.bloomberg.com/tosv2.html?vid=&uuid=b4fb4db0-7a1d-11ea-95c9-33951f998d41&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0wNC0wOS9iZXJrc2hpcmUtaGF0aGF3YXktam9pbnMtZ2xvYmFsLWRlYnQtc3BsdXJnZS13aXRoLXllbi1ib25kcw==",
+            "urlToImage": null,
+            "publishedAt": "2020-04-09T03:24:24Z",
+            "content": "To continue, please click the box below to let us know you're not a robot."
+        },
+        {
+            "source": {
+                "id": "cnbc",
+                "name": "CNBC"
+            },
+            "author": "Reuters",
+            "title": "Crude futures climb ahead of OPEC+ meeting - CNBC",
+            "description": "Crude futures rose on Thursday on expectations the world's largest oil producers would agree to cut production at a meeting later in the day as the industry grapples with the coronavirus-driven collapse in global oil demand.",
+            "url": "https://www.cnbc.com/2020/04/09/oil-markets-coronavirus-crude-output-opec-and-allies-in-focus.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/106475903-1586149511566gettyimages-1206552687.jpeg?v=1586401778",
+            "publishedAt": "2020-04-09T03:13:17Z",
+            "content": "Crude futures rose on Thursday on expectations the world's largest oil producers would agree to cut production at a meeting later in the day as the industry grapples with the coronavirus-driven collapse in global oil demand.\r\nBrent crude futures rose 2.5%, or… [+2284 chars]"
+        },
+        {
+            "source": {
+                "id": "the-hill",
+                "name": "The Hill"
+            },
+            "author": "Marty Johnson",
+            "title": "Insurers to lawmakers: Health insurance policies 'were not designed' for pandemics | TheHill - The Hill",
+            "description": "A group of associations that represent members of the health insurance industry penned a letter to a pair of congressional lawmakers from California noting that health insurance companies are not built to withstand pandemics like the current coronavirus outbr…",
+            "url": "https://thehill.com/homenews/house/491926-insurers-to-lawmakers-health-insurance-policies-were-not-designed-for",
+            "urlToImage": "https://thehill.com/sites/default/files/healthinsurance_091019istock.jpg",
+            "publishedAt": "2020-04-09T02:17:55Z",
+            "content": "A group of associations that represent members of the health insurance industry penned a letter to a pair of congressional lawmakers from California noting that health insurance companies are not built to withstand pandemics such as the current coronavirus ou… [+2156 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Marketwatch.com"
+            },
+            "author": "Mike Murphy",
+            "title": "U.S. stock futures about flat after Wall Street's latest rally - MarketWatch",
+            "description": "",
+            "url": "http://www.marketwatch.com/story/us-stock-futures-flat-after-wall-streets-latest-rally-2020-04-08",
+            "urlToImage": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg",
+            "publishedAt": "2020-04-09T02:16:00Z",
+            "content": "U.S. stock index futures were about flat late Wednesday, after stocks closed sharply higher earlier in the day. After rising more than 120 points earlier, Dow Jones Industrial Average futures\r\n YM00, \r\n +0.54%\r\nwere up 17 points, or 0.1%, as of midnight Easte… [+396 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Salon.com"
+            },
+            "author": "Matthew Rozsa",
+            "title": "GOP senator bought stock in company that makes medical gear after non-public briefing on coronavirus - Salon",
+            "description": "\"From where we sit, it is obvious that this is a growing scandal\"",
+            "url": "https://www.salon.com/2020/04/08/gop-senator-bought-stock-in-company-that-makes-medical-gear-after-non-public-briefing-on-coronavirus/",
+            "urlToImage": "https://media.salon.com/2018/10/david-perdue.jpg",
+            "publishedAt": "2020-04-09T02:13:04Z",
+            "content": "The investments of another Republican senator has come under scrutiny after it was revealed that Sen. David Perdue of Georgia purchased stock in a company that manufactures personal protective equipment (PPE) on the same day as a non-public Senate briefing on… [+3807 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ksltv.com"
+            },
+            "author": "",
+            "title": "Utah, Idaho Farmers Dumping Milk After Drop In Demand - ksltv.com",
+            "description": "When the recommendation first came to stay at home and socially distance to avoid catching and spreading coronavirus, dairy farmers could keep up with demand for milk. Since then, many have been forced to dump their product.",
+            "url": "https://ksltv.com/434938/utah-idaho-farmers-dumping-milk-after-drop-in-demand/?",
+            "urlToImage": "https://ksltv.com/wp-content/uploads/2020/04/COVID-Dairy.jpg",
+            "publishedAt": "2020-04-09T01:53:56Z",
+            "content": "OGDEN, Utah When the recommendation first came to stay at home and socially distance to avoid catching and spreading coronavirus, dairy farmers could keep up with demand for milk. Since then, many have been forced to dump their product.\r\nWhile grocery stores … [+2015 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": null,
+            "title": "GM and Bothell’s Ventec get $489.4 million order from U.S. for 30,000 ventilators in coronavirus fight - Seattle Times",
+            "description": null,
+            "url": "https://news.google.com/__i/rss/rd/articles/CBMiiQFodHRwczovL3d3dy5zZWF0dGxldGltZXMuY29tL2J1c2luZXNzL2dtLWFuZC1ib3RoZWxscy12ZW50ZWMtZ2V0LTQ4OS00LW1pbGxpb24tb3JkZXItZnJvbS11LXMtZm9yLTMwMDAwLXZlbnRpbGF0b3JzLWluLWNvcm9uYXZpcnVzLWZpZ2h0L9IBjwFodHRwczovL3d3dy5zZWF0dGxldGltZXMuY29tL2J1c2luZXNzL2dtLWFuZC1ib3RoZWxscy12ZW50ZWMtZ2V0LTQ4OS00LW1pbGxpb24tb3JkZXItZnJvbS11LXMtZm9yLTMwMDAwLXZlbnRpbGF0b3JzLWluLWNvcm9uYXZpcnVzLWZpZ2h0Lz9hbXA9MQ?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2020-04-09T01:38:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Cointelegraph.com"
+            },
+            "author": "Turner Wright",
+            "title": "Just Four Crypto Leaders on Forbes’ List of Billionaires - Cointelegraph",
+            "description": "Coinbase CEO Brian Armstrong and the co-founders of Bitmain and Ripple have been included on Forbes’ rich list for 2020",
+            "url": "https://cointelegraph.com/news/just-four-crypto-leaders-on-forbes-list-of-billionaires",
+            "urlToImage": "https://images.cointelegraph.com/images/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8xMmM0Y2M5YTJjYWU2YmJhMzU2M2RkMGE3MzEwZTRmZC5qcGc=.jpg",
+            "publishedAt": "2020-04-09T01:20:28Z",
+            "content": "There are more than 2000 billionaires on Forbes’ ‘The Richest in 2020’ list — but only a handful come from the world of cryptocurrency and none of them are named ‘CZ’.\r\nOnly four entrepreneurs who made their fortunes in crypto were included among the 2,095 bi… [+1514 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Youtube.com"
+            },
+            "author": null,
+            "title": "How to safely grocery shop during the COVID-19 pandemic - CBC News",
+            "description": "Many people are preparing for Easter meals ahead of the holiday long weekend, which means a trip to the grocery store. With physical distancing implemented a...",
+            "url": "https://www.youtube.com/watch?v=FLufQBKrLjw",
+            "urlToImage": "https://i.ytimg.com/vi/FLufQBKrLjw/maxresdefault.jpg",
+            "publishedAt": "2020-04-09T01:03:05Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Tom McKay",
+            "title": "WeWork Can't Pay the Rent - Gizmodo",
+            "description": "WeWork has bailed on April rent on some of its locations as the beleaguered coworking space company goes into a financial spiral amid the novel coronavirus pandemic, according to a report from Bloomberg.",
+            "url": "https://gizmodo.com/wework-cant-pay-the-rent-1842763591",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/dozsxvcjyg0fcyquwv3t.jpg",
+            "publishedAt": "2020-04-09T01:02:35Z",
+            "content": "WeWork has bailed on April rent on some of its locations as the beleaguered coworking space company goes into a financial spiral amid the novel coronavirus pandemic, according to a report from Bloomberg.\r\nCiting sources at the company, Bloomberg wrote that it… [+2680 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Npr.org"
+            },
+            "author": "Mary Childs",
+            "title": "A laid-off worker; her landlord; the multi-trillion-dollar mortgage market. : Planet Money - NPR",
+            "description": "We follow the distress from a laid-off worker, to her landlord, to the multi-trillion-dollar mortgage market.| Subscribe to our weekly newsletter here.",
+            "url": "https://www.npr.org/2020/04/08/830237502/episode-989-what-if-no-one-pays-rent",
+            "urlToImage": "https://media.npr.org/assets/img/2020/04/08/gettyimages-607353494_wide-b5cd0075e2ad32ac86077c39d7def59e26fc66f9.jpg?s=1400",
+            "publishedAt": "2020-04-09T01:01:00Z",
+            "content": "As a result of this crisis, millions of people have lost their jobs, but their bills haven't stopped coming in. Now they're making hard choices about whether to pay the rent, or the mortgage. \r\nIn this episode, we follow the chain from a laid-off worker who c… [+372 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Kdvr.com"
+            },
+            "author": "Lori Jane Gliha",
+            "title": "Greeley meat plant employee dies as company ramps up COVID-19 health screenings - FOX 31 Denver",
+            "description": "GREELEY, Colo. (KDVR) — An employee at a beef production facility in Greeley has succumbed to the COVID-19 illness, according to his family and the union that represents thousands of workers …",
+            "url": "https://kdvr.com/news/coronavirus/greeley-meat-plant-employee-dies-as-company-ramps-up-covid-19-health-screenings/",
+            "urlToImage": "https://kdvr.com/wp-content/uploads/sites/11/2020/04/promo410659041.jpg?w=1280&h=720&crop=1",
+            "publishedAt": "2020-04-09T00:52:36Z",
+            "content": "GREELEY, Colo. (KDVR) -- An employee at a beef production facility in Greeley has succumbed to the COVID-19 illness, according to his family and the union that represents thousands of workers at JBS USA.\r\nWe are deeply saddened by the loss of our team member,… [+3421 chars]"
+        },
+        {
+            "source": {
+                "id": "the-hill",
+                "name": "The Hill"
+            },
+            "author": "Juliegrace Brufke",
+            "title": "House Republicans, key administration officials push for additional funding for coronavirus small business loans | TheHill - The Hill",
+            "description": "Republican leadership in the House and key administration officials advocated for passing additional funding for small business loans amid the coronavirus pandemic, cautioning during a conference call with members on Wednesday that the $350 billion approved f…",
+            "url": "https://thehill.com/homenews/house/491918-house-republicans-key-administration-officials-push-for-additional-funding-for",
+            "urlToImage": "https://thehill.com/sites/default/files/davisrodney_021418gn2_lead.jpg",
+            "publishedAt": "2020-04-09T00:39:31Z",
+            "content": "Republican leadership in the House and key administration officials advocated for passing additional funding for small business loans amid the coronavirus pandemic, cautioning during a conference call with members on Wednesday that the $350 billion approved f… [+7964 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nytimes.com"
+            },
+            "author": "Liz Alderman, Jack Ewing",
+            "title": "Europe’s Big Economies Brace for Sharpest Drop Since World War II - The New York Times",
+            "description": "Germany and France are a harbinger of how bad it’s about to get as countries weigh the cost of coronavirus-induced lockdowns against the prospect of an extended recession.",
+            "url": "https://www.nytimes.com/2020/04/08/business/europe-economy-france-germany.html",
+            "urlToImage": "https://static01.nyt.com/images/2020/04/08/business/08virus-euecon-1/08virus-euecon-1-facebookJumbo-v2.jpg",
+            "publishedAt": "2020-04-09T00:15:46Z",
+            "content": "The economic damage from the coronavirus has been faster, deeper and spread across nearly every economic sector. With nonessential workers ordered to stay indoors, construction activity in France plunged by 75 percent, while industrial activity shrank by half… [+996 chars]"
+        }
+    ]
+}
