@@ -15,7 +15,11 @@ import retrofit2.Response;
 public class NewsDataSource<I extends Integer, A> extends PageKeyedDataSource<Integer, Article> {
     public static final int ARTICLES_PER_PAGE = 20;
     private int numberOfArticles = 0;
-    private NewsFetcher fetcher = new NewsFetcher();
+    private NewsFetcher fetcher;
+
+    public NewsDataSource(NewsFetcher fetcher) {
+        this.fetcher = fetcher;
+    }
 
     private boolean hasMorePages(int currentPage) {
         return currentPage * ARTICLES_PER_PAGE <= numberOfArticles;

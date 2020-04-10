@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements CardClickHandler 
         dataBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
         setSupportActionBar(dataBinding.toolbar);
-        getSupportActionBar().setSubtitle("powered by NewsApi.org");
+        getSupportActionBar().setSubtitle(getString(R.string.toolbar_sub_title));
     }
 
     @Override

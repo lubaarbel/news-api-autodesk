@@ -19,7 +19,7 @@
             android:id="@+id/contribution"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Powered by NewsApi.org"
+            android:text="@string/toolbar_sub_title"
             android:textColor="@color/colorPrimaryDark"
             android:layout_marginBottom="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
