@@ -6,7 +6,7 @@ import com.example.newsapi.databinding.NewsCardBinding;
 import com.example.newsapi.logic.CardClickHandler;
 import com.example.newsapi.model.response.Article;
 
-class NewsItemHolder extends RecyclerView.ViewHolder {
+public class NewsItemHolder extends RecyclerView.ViewHolder {
     private NewsCardBinding cardBinding;
 
     public NewsItemHolder(NewsCardBinding cardBinding) {

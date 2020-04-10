@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
@@ -32,12 +33,13 @@ public class WebViewFragment extends Fragment {
         return binding.getRoot();
     }
 
+
     @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
 
         binding.newsWebView.setVisibility(View.INVISIBLE);
-        binding.loaderIv.startAnimation(Utils.configureRotateAnimation());
+        binding.webLoaderIv.startAnimation(Utils.configureRotateAnimation());
 
         String url = getArguments().getString(NEWS_CARD_URL);
         binding.newsWebView.loadUrl(url);
@@ -51,7 +53,7 @@ public class WebViewFragment extends Fragment {
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
                 binding.newsWebView.setVisibility(View.VISIBLE);
-                binding.loaderIv.clearAnimation();
+                binding.webLoaderIv.clearAnimation();
             }
         });
     }

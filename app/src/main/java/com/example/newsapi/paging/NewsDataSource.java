@@ -3,6 +3,7 @@ package com.example.newsapi.paging;
 import androidx.annotation.NonNull;
 import androidx.paging.PageKeyedDataSource;
 
+import com.example.newsapi.logic.EspressoIdlingResource;
 import com.example.newsapi.model.NewsApiResponse;
 import com.example.newsapi.model.response.Article;
 import com.example.newsapi.network.NewsFetcher;
@@ -22,9 +23,11 @@ public class NewsDataSource<I extends Integer, A> extends PageKeyedDataSource<In
 
     @Override
     public void loadInitial(@NonNull LoadInitialParams<Integer> params, @NonNull LoadInitialCallback<Integer, Article> callback) {
+        EspressoIdlingResource.INSTANCE.increment();
         fetcher.fetchForArticles(1).enqueue(new Callback<NewsApiResponse>() {
             @Override
             public void onResponse(Call<NewsApiResponse> call, Response<NewsApiResponse> response) {
+                EspressoIdlingResource.INSTANCE.decrement();
                 if (response.body() != null && response.body().getStatus().equals("ok")) {
                     numberOfArticles = response.body().getTotalResults();
                     callback.onResult(response.body().getArticles(), null, 2);
@@ -33,6 +36,7 @@ public class NewsDataSource<I extends Integer, A> extends PageKeyedDataSource<In
 
             @Override
             public void onFailure(Call<NewsApiResponse> call, Throwable t) {
+                EspressoIdlingResource.INSTANCE.decrement();
                 // list ends... no more news for the user
                 // retry is optional
             }
@@ -42,28 +46,15 @@ public class NewsDataSource<I extends Integer, A> extends PageKeyedDataSource<In
     @Override
     public void loadBefore(@NonNull LoadParams<Integer> params, @NonNull LoadCallback<Integer, Article> callback) {
         // we start paging from page 1 -> no need to page before
-//        fetcher.fetchForArticles(params.key).enqueue(new Callback<NewsApiResponse>() {
-//            @Override
-//            public void onResponse(Call<NewsApiResponse> call, Response<NewsApiResponse> response) {
-//                Integer previousKey = (params.key > 1) ? params.key - 1 : null;
-//                if (response.body() != null && response.body().getStatus().equals("ok")) {
-//                    callback.onResult(response.body().getArticles(), previousKey);
-//                }
-//            }
-//
-//            @Override
-//            public void onFailure(Call<NewsApiResponse> call, Throwable t) {
-//                // list ends... no more news for the user
-//                // retry is optional
-//            }
-//        });
     }
 
     @Override
     public void loadAfter(@NonNull LoadParams<Integer> params, @NonNull LoadCallback<Integer, Article> callback) {
+        EspressoIdlingResource.INSTANCE.increment();
         fetcher.fetchForArticles(params.key).enqueue(new Callback<NewsApiResponse>() {
             @Override
             public void onResponse(Call<NewsApiResponse> call, Response<NewsApiResponse> response) {
+                EspressoIdlingResource.INSTANCE.decrement();
                 Integer nextKey = hasMorePages(params.key) ? params.key + 1 : null;
                 if (response.body() != null) {
                     callback.onResult(response.body().getArticles(), nextKey);
@@ -72,6 +63,7 @@ public class NewsDataSource<I extends Integer, A> extends PageKeyedDataSource<In
 
             @Override
             public void onFailure(Call<NewsApiResponse> call, Throwable t) {
+                EspressoIdlingResource.INSTANCE.decrement();
                 // list ends... no more news for the user
                 // retry is optional
             }
