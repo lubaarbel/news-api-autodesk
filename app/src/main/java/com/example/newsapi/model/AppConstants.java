@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AppConstants {
-    public static final String NEWS_API_BASE_URL = "http://newsapi.org/v2/";
+    public static final String NEWS_API_BASE_URL = "https://newsapi.org/v2/";
     public static final String NEWS_API_URL_PATH = "top-headlines";
     public static final String NEWS_API_KEY = "b833487145ea488e913fd2474f1d5f87";
 

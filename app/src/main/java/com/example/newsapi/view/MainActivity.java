@@ -1,12 +1,18 @@
 package com.example.newsapi.view;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
 
+import android.Manifest;
+import android.content.DialogInterface;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MenuItem;
@@ -38,6 +44,12 @@ public class MainActivity extends AppCompatActivity implements CardClickHandler 
     protected void onResume() {
         super.onResume();
         loadSplashFragment();
+        if (hasAppPermissions()) {
+            beginDataHandling();
+        }
+    }
+
+    private void beginDataHandling() {
         // Splash or refresh data after 2 secs
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -109,5 +121,43 @@ public class MainActivity extends AppCompatActivity implements CardClickHandler 
     @Override
     public void onCardSelected(String url) {
         loadNewsDetailedFragment(url);
+    }
+
+    /** Internet permissions **/
+    public static final int PERMISSIONS_REQUEST_CODE = 12321;
+
+    private boolean hasAppPermissions() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            // INTERNET are "normal" permissions, but we should check in case other permissions needed...
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.INTERNET) !=
+                    PackageManager.PERMISSION_GRANTED) {
+                requestPermissions(new String[]{Manifest.permission.INTERNET}, PERMISSIONS_REQUEST_CODE);
+                return false;
+            }
+        }
+        return true;
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == PERMISSIONS_REQUEST_CODE) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                beginDataHandling();
+            } else {
+                showAlertOnLackOfPermissions();
+            }
+        }
+    }
+
+    private void showAlertOnLackOfPermissions() {
+        DialogInterface.OnClickListener dialogListener = (dialog, id) -> onBackPressed();
+        AlertDialog alert = new AlertDialog.Builder(this)
+                .setTitle("Permissions")
+                .setMessage("Sorry, but you don't have needed permissions to use the app")
+                .setCancelable(false)
+                .setNeutralButton("I understand", dialogListener)
+                .create();
+        alert.show();
     }
 }
